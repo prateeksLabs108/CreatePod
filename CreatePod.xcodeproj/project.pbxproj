@@ -46,10 +46,18 @@
 		C403F0311F34898A004DAC4A /* CreatePod */ = {
 			isa = PBXGroup;
 			children = (
+				C403F03A1F348C50004DAC4A /* PublicHeaders */,
 				C403F0321F34898A004DAC4A /* CreatePod.h */,
 				C403F0331F34898A004DAC4A /* Info.plist */,
 			);
 			path = CreatePod;
+			sourceTree = "<group>";
+		};
+		C403F03A1F348C50004DAC4A /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
