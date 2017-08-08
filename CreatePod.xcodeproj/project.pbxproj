@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C403F0341F34898A004DAC4A /* CreatePod.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F0321F34898A004DAC4A /* CreatePod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C403F03D1F3999B0004DAC4A /* CPTest1.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F03B1F3999B0004DAC4A /* CPTest1.h */; };
+		C403F03E1F3999B0004DAC4A /* CPTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = C403F03C1F3999B0004DAC4A /* CPTest1.m */; };
+		C403F0411F3999C7004DAC4A /* CPTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F03F1F3999C7004DAC4A /* CPTest2.h */; };
+		C403F0421F3999C7004DAC4A /* CPTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = C403F0401F3999C7004DAC4A /* CPTest2.m */; };
+		C403F0451F399A44004DAC4A /* CPTest3.h in Headers */ = {isa = PBXBuildFile; fileRef = C403F0431F399A44004DAC4A /* CPTest3.h */; };
+		C403F0481F399DCB004DAC4A /* CPTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = C403F0471F399DCB004DAC4A /* CPTest3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C403F02F1F34898A004DAC4A /* CreatePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CreatePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C403F0321F34898A004DAC4A /* CreatePod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatePod.h; sourceTree = "<group>"; };
 		C403F0331F34898A004DAC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C403F03B1F3999B0004DAC4A /* CPTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTest1.h; sourceTree = "<group>"; };
+		C403F03C1F3999B0004DAC4A /* CPTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTest1.m; sourceTree = "<group>"; };
+		C403F03F1F3999C7004DAC4A /* CPTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTest2.h; sourceTree = "<group>"; };
+		C403F0401F3999C7004DAC4A /* CPTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTest2.m; sourceTree = "<group>"; };
+		C403F0431F399A44004DAC4A /* CPTest3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTest3.h; sourceTree = "<group>"; };
+		C403F0471F399DCB004DAC4A /* CPTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTest3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +58,24 @@
 		C403F0311F34898A004DAC4A /* CreatePod */ = {
 			isa = PBXGroup;
 			children = (
+				C403F03A1F348C50004DAC4A /* PublicHeaders */,
 				C403F0321F34898A004DAC4A /* CreatePod.h */,
+				C403F0471F399DCB004DAC4A /* CPTest3.m */,
+				C403F03B1F3999B0004DAC4A /* CPTest1.h */,
+				C403F03C1F3999B0004DAC4A /* CPTest1.m */,
+				C403F03F1F3999C7004DAC4A /* CPTest2.h */,
+				C403F0401F3999C7004DAC4A /* CPTest2.m */,
 				C403F0331F34898A004DAC4A /* Info.plist */,
 			);
 			path = CreatePod;
+			sourceTree = "<group>";
+		};
+		C403F03A1F348C50004DAC4A /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				C403F0431F399A44004DAC4A /* CPTest3.h */,
+			);
+			path = PublicHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +86,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C403F0341F34898A004DAC4A /* CreatePod.h in Headers */,
+				C403F0451F399A44004DAC4A /* CPTest3.h in Headers */,
+				C403F03D1F3999B0004DAC4A /* CPTest1.h in Headers */,
+				C403F0411F3999C7004DAC4A /* CPTest2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C403F03E1F3999B0004DAC4A /* CPTest1.m in Sources */,
+				C403F0421F3999C7004DAC4A /* CPTest2.m in Sources */,
+				C403F0481F399DCB004DAC4A /* CPTest3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +277,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CreatePod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prateek.CreatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,6 +295,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CreatePod/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prateek.CreatePod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +322,7 @@
 				C403F0391F34898A004DAC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
