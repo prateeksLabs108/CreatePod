@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "CreatePod"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "A short description of CreatePod."
   s.description  = "A brief description for CreatePod"
-  s.homepage     = "http://EXAMPLE/CreatePod"
+  s.homepage     = "http://google.co.in"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Prateek Sujaina" => "prateek.sujaina@labs108.com" }
   s.platform     = :ios, "9.0"
