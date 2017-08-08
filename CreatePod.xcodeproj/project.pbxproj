@@ -73,7 +73,10 @@
 		C403F03A1F348C50004DAC4A /* PublicHeaders */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				C403F0431F399A44004DAC4A /* CPTest3.h */,
+=======
+>>>>>>> a3d3bf5f957fb12cbd89afbb28cf6ec7a045aa00
 			);
 			path = PublicHeaders;
 			sourceTree = "<group>";
